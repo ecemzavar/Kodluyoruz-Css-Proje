@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kodluyoruz | CSS İlk Ödev</title>
+</head>
+<body>
+        <!-- ilk div başlangıcı. İlk genel kutu. -->
+    <div class="sayfa">
+        <!-- içinde başlık olan link divi -->
+        <div class="ust">
+            <a id="baslik" href="index.html">
+                <h1>Kodluyoruz CSS Örneği</h1>
+            </a>    
+            <!-- listelerin başlangıcı ana sayfa vs. gibi sayfalara tıklayınca geçiş yapan linkler -->   
+        <ul id="menu">
+            <li><a href="anasayfa.html"> Ana Sayfa </a></li>
+            <li><a href="hakkimizda.html"> Hakkımızda </a></li>
+            <li><a href="iletisim.html"> İletişim </a></li>
+        </ul>
+        <!-- listelerin bitimi -->
+        <div class="temizle"></div>
+        </div> 
+        <!-- resmi ve yazıyı ortalamak-hizalamak için ayrılan div -->
+        <div class="orta">
+            <!-- sadece resmi etkileyecek div başlangıcı -->
+            <div class="orta-sol">
+                <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60" alt="">
+            </div>
+            <!-- sadece resmi etkileyecek div bitişi -->
+            <!-- resim yanı-ana metin başlangıcı -->
+            <div class="orta-sag">
+                <h1>Hoşgeldiniz</h1>              
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore mollitia veritatis rerum quod impedit aperiam! Architecto ipsum quibusdam inventore blanditiis, ad accusamus totam ducimus quod dolorem? Quaerat quibusdam ipsam autem totam eum a, minus, delectus obcaecati veritatis fugiat ut laborum rerum nostrum quos perferendis voluptate excepturi modi expedita reiciendis praesentium?</p>
+                <div class="temizle"></div>
+            </div>   
+            <!-- resim yanı-ana metin bitişi -->
+            <div class="temizle"></div>   
+        </div>
+        <div class="alt">
+            <!-- resmin altındaki telif hakkı gibi linklerin başlangıcı -->
+            <p>
+                 <a href="index.html">Ana Sayfa</a> | <a href="hakkimizda.html">Hakkımızda</a> | <a href="iletisim.html">İletişim</a>                     
+            </p>
+            <p>
+               <!-- &copy; kodu c nin etrafında yuvarlak olmuş-telif hakkı- halidir. --> &copy; Tüm Hakları Saklıdır. 
+            </p>
+            <div class="temizle"></div>        
+        </div>
+    </div>    
+</body>
+</html>
